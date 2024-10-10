@@ -5,10 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animales Celebridades</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+      header {
+        margin-bottom: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      #image {
+        max-width: 300px; /* Set the max width for the image */
+        height: auto;
+        border-radius: 8px;
+      }
+      button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      #textContent {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
+    <header>
+      <h1>Animales Celebridades</h1>
+    </header>
+
     <img id="image" src="image1.jpg" alt="Image" />
     <button id="toggleButton">Cambiar imagen</button>
+
+    <div id="textContent">
+      <h2>Estos son los animales más famosos del 2024</h2>
+      <p>Pesto el pinguino y Moo Den el hipopótamo</p>
+    </div>
 
     <script src="script.js"></script>
   </body>
